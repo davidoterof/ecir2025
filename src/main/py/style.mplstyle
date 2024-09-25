@@ -1,0 +1,40 @@
+# Set default figure size
+figure.figsize : 1.861, 1.2
+figure.dpi : 150
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 1.5
+xtick.major.width : 0.3
+xtick.minor.size : 0.7
+xtick.minor.width : 0.2
+xtick.minor.visible : True
+xtick.top : True
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 1.5
+ytick.major.width : 0.3
+ytick.minor.size : 0.7
+ytick.minor.width : 0.1
+ytick.minor.visible : True
+ytick.right : True
+
+# Set line widths
+axes.linewidth : 0.3
+grid.linewidth : 0.5
+lines.linewidth : 0.30
+lines.markersize : 1
+lines.markeredgewidth : 0.4
+
+# Remove legend frame
+legend.frameon : False
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.
+
+# Use LaTeX for math formatting
+text.usetex : True
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
+font.family : Computer Modern
