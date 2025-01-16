@@ -1,6 +1,6 @@
 This repo holds the code to reproduce the experiments of the following paper:
 
-### Towards Reliable Testing for Multiple Information Retrieval System Comparisons @ ECIR '25
+#### Towards Reliable Testing for Multiple Information Retrieval System Comparisons @ ECIR '25 ([Link](https://arxiv.org/abs/2501.03930))
 
 To run these experiments, you will need maven and the JDK 11 installed.
 Then, you should compile the project with
